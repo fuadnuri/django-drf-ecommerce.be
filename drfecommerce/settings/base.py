@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # internal packages
+    'drfecommerce.apps.product',
 
 ]
 

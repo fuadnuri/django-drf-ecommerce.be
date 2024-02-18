@@ -9,7 +9,7 @@ tests
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+.vscode
 
 
 __pypackages__/

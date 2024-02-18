@@ -5,6 +5,8 @@ python-dotenv
 djangorestframework
 pytest
 pytest-django
+django-mptt
+drf-spectacular
 # commands
 py -m pip install --ugrade pip
 
