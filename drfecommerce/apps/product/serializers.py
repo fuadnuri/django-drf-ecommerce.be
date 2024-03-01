@@ -8,13 +8,16 @@ class BrandSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class CategorySerialiser(serializers.ModelSerializer):
+class CategorySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Brand
+        model = Category
         fields = "__all__"
 
 
 class ProductSerializer(serializers.ModelSerializer):
+    brand = BrandSerializer()
+    category = CategorySerializer()
+
     class Meta:
-        model = Brand
+        model = Product
         fields = "__all__"
